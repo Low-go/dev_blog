@@ -1,10 +1,35 @@
 .navbar {
     background-color: #ff6347;
     height: 52px;
-   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-right: 100px; */
+    gap: 550px;
 }
 
 .navbar p{
     margin: 0;
     padding: 0;
+}
+.main-logo{
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    color: white;
+    font-size: 24px;
+    margin-left: 50px;
+}
+.me-info{
+    display: flex;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    
+}
+.me-image{
+    width: 50px; /* Adjust the size as needed */
+    height: 50px; /* Adjust the size as needed */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image is not stretched */
 }
