@@ -1,0 +1,10 @@
+.navbar {
+    background-color: #ff6347;
+    height: 52px;
+   
+}
+
+.navbar p{
+    margin: 0;
+    padding: 0;
+}
