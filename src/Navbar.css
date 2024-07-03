@@ -1,35 +1,33 @@
 .navbar {
-    background-color: #ff6347;
-    height: 52px;
+    background-color: #708090; /* Slate Gray color */
+    height: 60px; 
     display: flex;
     align-items: center;
-    justify-content: center;
-    /* padding-right: 100px; */
-    gap: 550px;
+    justify-content: space-between; 
+    padding: 0 20px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
-.navbar p{
-    margin: 0;
-    padding: 0;
-}
-.main-logo{
+.main-logo {
     font-family: 'Merriweather', serif;
     font-weight: 700;
     color: white;
     font-size: 24px;
-    margin-left: 50px;
 }
-.me-info{
+
+.me-info {
     display: flex;
+    align-items: center;
+    gap: 8px; /* Reduced space between "By," text and the image */
     font-family: 'Merriweather', serif;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 18px;
     color: white;
-    
 }
-.me-image{
-    width: 50px; /* Adjust the size as needed */
-    height: 50px; /* Adjust the size as needed */
-    border-radius: 50%; /* Makes the image circular */
-    object-fit: cover; /* Ensures the image is not stretched */
+
+.me-image {
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
 }
