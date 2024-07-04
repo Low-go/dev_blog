@@ -18,7 +18,7 @@
 .me-info {
     display: flex;
     align-items: center;
-    gap: 8px; /* Reduced space between "By," text and the image */
+    gap: 8px; 
     font-family: 'Merriweather', serif;
     font-weight: 700;
     font-size: 18px;

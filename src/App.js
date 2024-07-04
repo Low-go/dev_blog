@@ -1,5 +1,6 @@
 import React from 'react';
-import Navbar from './Navbar';
+import Navbar from './components/Navbar';
+import Filler from './components/Filler';
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
 
     <div>
        <Navbar/>
+       <Filler/>
        test
     </div>
 
