@@ -1,22 +1,46 @@
-/* Style for individual post components */
+/* Styling for the entire post component without a box */
 .post-component {
-    background-color: #FFFFFF;
-    border-radius: 8px;
-    padding: 20px;
-    margin: 20px 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 80%;
     max-width: 800px;
+    margin: 20px 0;
     font-family: Arial, sans-serif;
     line-height: 1.6;
   }
   
-  /* Markdown styling */
-  .post-component h1, .post-component h2, .post-component h3 {
-    margin-top: 0;
+  /* Title styling */
+  .post-component .title {
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
   }
   
+  /* Date styling */
+  .post-component .date {
+    float: right;
+    font-size: 1em;
+    color: #555;
+    margin-top: -2em; /* Adjust to align with title */
+  }
+  
+  /* Content styling */
   .post-component p {
     margin-bottom: 1em;
+  }
+  
+  /* GitHub section styling */
+  .github-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #B0B0B0; /* A subtle divider */
+  }
+  
+  .github-section a {
+    text-decoration: none;
+    color: #0366d6;
+    font-weight: bold;
   }
   
