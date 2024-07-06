@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import Markdown from 'react-markdown';
 
-function PostComponent() {
+function PostComponent({path}) {
   const [markdownContent, setMarkdownContent] = useState('');
 
   useEffect(() => {
-    fetch('/md_files/test.md')
+    fetch(path)
       .then(response => response.text())
       .then(text => setMarkdownContent(text));
-  }, []);
+  }, [path]);
 
   return (
     <div>
