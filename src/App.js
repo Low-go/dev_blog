@@ -7,7 +7,7 @@ import './App.css'
 function App() {
 
   const fileNumber = 3; // sucks I can't automate this. but incrementing the numnber should be enough
-  const postPaths = Array.from({ length: fileNumber }, (_, index) => `/md_files/blogPost${index}.md`);
+  const postPaths = Array.from({ length: fileNumber }, (_, index) => `/md_files/blogPost${index}.md`).reverse();
 
   return (
 

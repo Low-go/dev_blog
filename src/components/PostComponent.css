@@ -10,7 +10,7 @@
   /* Title styling */
   .post-component .title {
     font-family: 'Merriweather', serif;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
     margin: 0;
   }
@@ -20,7 +20,7 @@
     float: right;
     font-size: 1em;
     color: #555;
-    margin-top: -2em; /* Adjust to align with title */
+    margin-top: -2em; 
   }
   
   /* Content styling */
@@ -28,19 +28,27 @@
     margin-bottom: 1em;
   }
   
-  /* GitHub section styling */
+
   .github-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
     padding-top: 10px;
-    border-top: 1px solid #B0B0B0; /* A subtle divider */
+    border-top: 1px solid #B0B0B0; 
+    border-bottom: 1px solid #B0B0B0; 
   }
   
+  /* GitHub link styling */
   .github-section a {
     text-decoration: none;
     color: #0366d6;
     font-weight: bold;
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  /* GitHub link hover effect */
+  .github-section a:hover {
+    color: #003366;
   }
   
