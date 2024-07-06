@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Filler from './components/Filler';
 import PostComponent from './components/PostComponent';
+import './App.css'
 
 function App() {
 
@@ -13,9 +14,11 @@ function App() {
     <div>
        <Navbar/>
        <Filler/>
-       {postPaths.map((path, index) => (
-        <PostComponent key={index} path={path} />
-      ))}
+       <div className='post-container'>
+        {postPaths.map((path, index) => (
+          <PostComponent key={index} path={path} />
+        ))}
+      </div>
     </div>
 
 
