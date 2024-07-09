@@ -2,7 +2,6 @@
   "name": "dev_blog",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Low-go.github.io/https://github.com/Low-go/dev_blog",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
