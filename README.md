@@ -1,17 +1,3 @@
 # Low-go's Dev Blog
 
-## Note to self on some things to include
-
-### Fonts
-
-possibly Merrieweather
-
-
-
-### Hex colors
-
-#eeeeee
-
-
-#ff6347 -- super cool orange
-#333333 --- dark grey
+The repository to my dev site, It'll probably be frequently updated not because of any functional changes but because I upload my md files onto here so that it can be displayed on the website

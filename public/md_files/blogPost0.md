@@ -8,4 +8,4 @@ The UI is done, the fucntionality and streaming, the hosting. I just wonder abou
 
 Last thing I might do before the night roles over is maybe host this site on github. Man I really hope making a static site on github dosen't bite me in the butt as the amount of entries increase. Sounds dumb but I am gonna link this website project on the github section for first day.
 
-GitHub: 
+GitHub: https://github.com/Low-go/dev_blog
