@@ -14,8 +14,9 @@ function PostComponent({ path }) {
       .then(response => response.text())
       .then(text => {
         const lines = text.split('\n');
-        const title = lines.shift(); // First line as title
-        const date = lines.shift(); // Second line as date
+        const title = lines.shift(); 
+        lines.shift(); // Skip the empty second line
+        const date = lines.shift(); 
         const lastLine = lines[lines.length - 1].startsWith('GitHub:') ? lines.pop() : '';
         setTitle(title);
         setDate(date);

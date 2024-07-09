@@ -31,3 +31,12 @@
     border-radius: 50%;
     object-fit: cover;
 }
+@media (min-width: 1200px) {
+    .main-logo {
+        margin-left: 130px; /* Increase the left margin for large screens */
+    }
+
+    .me-image {
+        margin-right: 250px; /* Increase the right margin for large screens */
+    }
+}
