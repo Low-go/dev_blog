@@ -15,7 +15,7 @@ function PostComponent({ path }) {
       .then(text => {
         const lines = text.split('\n');
         const title = lines.shift(); 
-        lines.shift(); // Skip the empty second line
+        lines.shift(); // Skip the empty second line because it is empty
         const date = lines.shift(); 
         const lastLine = lines[lines.length - 1].startsWith('GitHub:') ? lines.pop() : '';
         setTitle(title);
@@ -31,7 +31,7 @@ function PostComponent({ path }) {
       <div className="date">{date}</div>
       <Markdown>{markdownContent}</Markdown>
       <div className="github-section">
-        <FaGithub size={20} />
+        <FaGithub size={20} className='github-icon'/>
         {githubLink && <a href={githubLink} target="_blank" rel="noopener noreferrer">GitHub Link</a>}
       </div>
     </div>

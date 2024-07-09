@@ -1,10 +1,11 @@
-/* Styling for the entire post component without a box */
+
 .post-component {
     width: 80%;
     max-width: 800px;
-    margin: 20px 0;
+    margin: 38px 0;
     font-family: Arial, sans-serif;
     line-height: 1.6;
+  
   }
   
   /* Title styling */
@@ -28,7 +29,7 @@
     margin-bottom: 1em;
   }
   
-
+  /*Obviously*/
   .github-section {
     display: flex;
     justify-content: space-between;
@@ -37,6 +38,7 @@
     padding-top: 10px;
     border-top: 1px solid #B0B0B0; 
     border-bottom: 1px solid #B0B0B0; 
+   
   }
   
   /* GitHub link styling */
@@ -45,7 +47,14 @@
     color: #0366d6;
     font-weight: bold;
     transition: color 0.3s ease; /* Smooth transition for hover effect */
+
   }
+
+  .github-section .github-icon{
+    margin-bottom: 2px;
+  }
+
+
   
   /* GitHub link hover effect */
   .github-section a:hover {
