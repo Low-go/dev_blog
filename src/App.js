@@ -6,7 +6,7 @@ import './App.css'
 
 function App() {
 
-  const fileNumber = 3; // sucks I can't automate this. but incrementing the numnber should be enough
+  const fileNumber = 4; // sucks I can't automate this. but incrementing the numnber should be enough
   const postPaths = Array.from({ length: fileNumber }, (_, index) => `${process.env.PUBLIC_URL}/md_files/blogPost${index}.md`).reverse();
 
   return (
