@@ -22,6 +22,6 @@ But sometimes it feels that no matter how much I learn I don't feel like I know 
 
 I also made some progress on my portfolio website. I decided to discard my initial navbar and instead use the navbar and first section
 from a previous website I had made for a class following a tutorial. I really liked it so just trying to translate it onto the exiting code
-structure I have on the site
+structure I have on the site.
 
 GitHub: https://github.com/Low-go/portfolio
