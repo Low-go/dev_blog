@@ -7,4 +7,4 @@ I have applied for a total of 56 job applications, generally postings on entry l
 Also I have hit a really hard standstill with my django project. I have read documentation, seen youtube videos, asked for help on stackoverflow. But for some reason I cannot implement session managment properly, every text starting a new session and it is actually driving me insane. I don't know where to go or how to fix this at the moment.
 
 
-GitHub: https://github.com/Low-go/FullStack_SocialMedia_Website
+GitHub: 
