@@ -2,7 +2,7 @@ Some minor updates
 
 08-24-2024
 
-Nothing grand but here are some thinsg i have been doing as of late. 
+Nothing grand but here are some things i have been doing as of late. 
 
 * I've reached 139 job applications.
 
